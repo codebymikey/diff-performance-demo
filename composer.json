@@ -1,0 +1,8 @@
+{
+    "name": "demo/slow-diff",
+    "description": "Tests slow diff",
+    "type": "project",
+    "require": {
+        "sebastian/diff": "^6.0"
+    }
+}
