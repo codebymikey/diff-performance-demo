@@ -3,6 +3,12 @@
     "description": "Tests slow diff",
     "type": "project",
     "require": {
-        "sebastian/diff": "^6.0"
+        "sebastian/diff": "^6.0",
+        "jfcherng/php-diff": "^6.16"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
     }
 }
